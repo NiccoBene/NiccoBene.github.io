@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    background-color: ghostwhite;
+    font-size: x-large;
+
+ }
+ #header {
+     background-color: rgb(240, 224, 204);
+     border: 2px solid black;
+     margin-left: 5cm;
+    margin-right: 5cm;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 30px;
+    border-radius: 10px
+    
+}
+#logo{
+    padding-left: 40px;
+    
+}
+.menu-item{
+    color: black;
+    font-weight: 400;
+    background-color: yellow;
+    border-radius:3px 20px ;
+}
+.menu-item:hover{
+    background-color: red;
+    font-size: 30px;
+}
+
+#menu-wrapper{
+    min-width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+#contattami {
+    padding-right: 40px;
+}
+ #main {
+     background-color: khaki;
+     margin-left: 90px;
+     margin-top: 1.5cm;
+     margin-right: 90px;
+     border: 2px solid black;
+
+ }
+ #footer {
+     background-color: cornsilk;
+     border: 2px solid black;
+     padding: 30px;
+     margin-left: 90px;
+     margin-right: 90px;
+     margin-top: 1.5cm;
+ }
